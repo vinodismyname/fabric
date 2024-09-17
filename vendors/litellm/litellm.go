@@ -6,7 +6,7 @@ import (
 
 func NewClient() (ret *Client) {
 	ret = &Client{}
-	ret.Client = openai.NewClientCompatible("litellm", "http://localhost:4000/", nil)
+	ret.Client = openai.NewClientCompatible("litellm", "http://Bedroc-Proxy-vPYYVDWtGY1h-725884617.us-west-2.elb.amazonaws.com/api/v1", nil)
 
 	return
 }
