@@ -19,7 +19,7 @@ import (
 	"github.com/danielmiessler/fabric/vendors/azure"
 	"github.com/danielmiessler/fabric/vendors/dryrun"
 	"github.com/danielmiessler/fabric/vendors/gemini"
-	"github.com/danielmiessler/fabric/vendors/litellm"
+	"github.com/vinodismyname/fabric/vendors/litellm"
 	"github.com/danielmiessler/fabric/vendors/ollama"
 	"github.com/danielmiessler/fabric/vendors/openai"
 	"github.com/danielmiessler/fabric/vendors/openrouter"
