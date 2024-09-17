@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/danielmiessler/fabric/core"
+	"github.com/vinodismyname/fabric/core"
 	"github.com/danielmiessler/fabric/db"
 )
 
