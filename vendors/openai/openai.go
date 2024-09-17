@@ -30,8 +30,9 @@ func NewClientCompatible(vendorName string, defaultBaseUrl string, configureCust
 	}
 
 	ret.ApiKey = ret.AddSetupQuestion("API Key", true)
-	ret.ApiBaseURL = ret.AddSetupQuestion("API Base URL", true)
-
+	ret.ApiBaseURL = ret.AddSetupQuestion("API Base URL", false)
+	ret.ApiBaseURL.Value = defaultBaseUrl
+	
 	return
 }
 
